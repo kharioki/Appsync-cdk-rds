@@ -1,0 +1,7 @@
+{
+  "AppsyncCdkRdsStack": {
+    "AppSyncAPIURL": "https://fwhtvx2xubaodnhoufliwgelre.appsync-api.us-east-2.amazonaws.com/graphql",
+    "AppSyncAPIKey": "da2-y2fif76i7jgtfblwnrznqtzkvm",
+    "ProjectRegion": "us-east-2"
+  }
+}

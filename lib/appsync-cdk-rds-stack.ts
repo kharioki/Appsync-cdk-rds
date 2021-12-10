@@ -73,5 +73,11 @@ export class AppsyncCdkRdsStack extends cdk.Stack {
       typeName: 'Mutation',
       fieldName: 'deletePost',
     });
+
+    // CFN Outputs
+    new cdk.CfnOutput(this, 'AppSyncAPIURL', { value: api.graphqlUrl });
+    new cdk.CfnOutput(this, 'AppSyncAPIKey', { value: api.apiKey || '' });
+    new cdk.CfnOutput(this, 'ProjectRegion', { value: this.region });
+
   }
 }
