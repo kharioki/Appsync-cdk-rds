@@ -1,8 +1,7 @@
-# Welcome to your CDK TypeScript project!
+# Appsync-cdk-rds
 
-This is a blank project for TypeScript development with CDK.
+A realtime serverless API with PostgreSQL, CDK, Typescript and AppSync.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
